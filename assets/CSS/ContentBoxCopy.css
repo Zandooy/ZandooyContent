@@ -1,0 +1,50 @@
+.filigree-box {
+  width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: rgba(6, 85, 53, 0.4);
+  color: #252527;
+  border: 5px solid #B49246;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(191, 167, 129, 0.3);
+  font-family: 'Verdana', sans-serif;
+  position: relative;
+}
+
+.corner {
+  color: #B49246;
+  font-size: 30px;
+  position: absolute;
+}
+
+.TL {
+  top: -18px;
+  left: -18px;
+  transform: rotate(-45deg);
+}
+
+.TR {
+  top: -18px;
+  right: -18px;
+  transform: rotate(45deg);
+}
+
+.BL {
+  bottom: -18px;
+  left: -18px;
+  transform: rotate(-135deg);
+}
+
+.BR {
+  bottom: -18px;
+  right: -18px;
+  transform: rotate(135deg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    text-shadow: 0 0 15px rgba(255, 190, 82, 01);
+	background: -webkit-linear-gradient(#FFA442, #FFBE52);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
